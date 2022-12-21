@@ -16,5 +16,21 @@ public class hutogo {
 		System.out.println(c);
 		c = a != 5;
 		System.out.println(c);
+		
+		System.out.println("Next");
+		boolean d = true;
+		boolean e = false;
+		c = d && true;
+		System.out.println(c);
+		c = d && false;
+		System.out.println(c);
+		c = e || true;
+		System.out.println(c);
+		c = e || false;
+		System.out.println(c);
+		c = !d;
+		System.out.println(c);
+		c = !e;
+		System.out.println(c);
 	}
 }
